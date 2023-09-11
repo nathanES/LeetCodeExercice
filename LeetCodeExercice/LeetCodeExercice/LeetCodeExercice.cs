@@ -1,6 +1,7 @@
 using LeetCodeExercice.Common;
 using LeetCodeExercice.Exercice;
 using LeetCodeExercice.Exercice._1_100;
+using LeetCodeExercice.Exercice._1201_1300;
 
 namespace LeetCodeExercice;
 
@@ -12,7 +13,7 @@ public class LeetCodeExercice
     }
     public void leetcodeTest()
     {
-        Ex68 t = new Ex68();
+        Ex1282 t = new Ex1282();
     }
     
         #region Template
