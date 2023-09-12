@@ -54,7 +54,5 @@ public class Ex1282
         }
 
         return result;
-
-
     }
 }
