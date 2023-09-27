@@ -3,6 +3,7 @@ using LeetCodeExercice.Exercice;
 using LeetCodeExercice.Exercice._1_100;
 using LeetCodeExercice.Exercice._1201_1300;
 using LeetCodeExercice.Exercice._301_400;
+using LeetCodeExercice.Exercice._801_900;
 
 namespace LeetCodeExercice;
 
@@ -14,7 +15,7 @@ public class LeetCodeExercice
     }
     public void leetcodeTest()
     {
-        Ex389 ex389 = new Ex389();
+        Ex880 ex880 = new Ex880();
     }
     
         #region Template
