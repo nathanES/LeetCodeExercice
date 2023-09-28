@@ -16,16 +16,16 @@ public class Ex880
         //On calcule la taille de la chaine jusqu"à ce que que cela dépasse k (la valeur recherché)
         while (length < k) {
             if (char.IsDigit(s[i])) {
-                length *= s[i] - '0';
+                length *= s[i] - '0'; //on multiplie la taille par le nombre 
             } else {
                 length++;
             }
             i++;
         }
-        
+        //i c'est le nombre de lettre parcouru (i-1 l'indice dans le tableau)
         for (int j = i - 1; j >= 0; j--) {
             if (char.IsDigit(s[j])) {
-                length /= s[j] - '0';
+                length /= s[j] - '0'; //On divise la taille par le nombre 
                 k %= (int)length;
             } else {
                 if (k == 0 || k == length) {
