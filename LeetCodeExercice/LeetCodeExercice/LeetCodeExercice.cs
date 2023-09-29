@@ -15,7 +15,7 @@ public class LeetCodeExercice
     }
     public void leetcodeTest()
     {
-        Ex880 ex880 = new Ex880();
+        Ex896 ex896 = new Ex896();
     }
     
         #region Template

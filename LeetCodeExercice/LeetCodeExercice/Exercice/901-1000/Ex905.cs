@@ -35,7 +35,6 @@ public class Ex905
         List<int> oddNumbers = nums.Where(j => j % 2 != 0).ToList();
         
         evenNumbers.AddRange(oddNumbers);
-        swap
         return evenNumbers.ToArray();
     }
 }
