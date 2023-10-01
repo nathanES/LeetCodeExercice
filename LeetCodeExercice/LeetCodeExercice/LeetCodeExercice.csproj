@@ -11,8 +11,5 @@
 
 
 
-    <ItemGroup>
-      <Folder Include="Exercice\501-600\" />
-    </ItemGroup>
 
 </Project>
