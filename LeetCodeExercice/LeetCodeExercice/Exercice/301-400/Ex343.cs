@@ -1,4 +1,4 @@
-public class Ex347
+public class Ex343
 {
     public Ex343()
     {
